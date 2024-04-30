@@ -258,7 +258,7 @@ if cell_date == current_date:
 
     # Excluir do DataFrame DemaisOCs as linhas que contenham 'Elemento ID' presente em NGN 
     DemaisOCs = nouser[~nouser['Nome Atividade'].isin(Nome_Atividade_ngnI + Nome_Atividade_ngnH + Nome_Atividade_coreCS + Nome_Atividade_aceitacao)].reset_index(drop=True)
-    DemaisOCs.index = pd.RangeIndex(start=1, stop=len(core_tsl)+1, step=1)
+    #DemaisOCs.index = pd.RangeIndex(start=1, stop=len(core_tsl)+1, step=1)
     wllDemais = r001[~r001['Nome Atividade'].isin(Nome_Atividade_ngnI + Nome_Atividade_ngnH + Nome_Atividade_coreCS + Nome_Atividade_aceitacao) & (r001['Nome Proprietário'].isin(wllctel))]
     allDemais = r001[~r001['Nome Atividade'].isin(Nome_Atividade_ngnI + Nome_Atividade_ngnH + Nome_Atividade_coreCS + Nome_Atividade_aceitacao)]
     cNoDemais = DemaisOCs.shape[0]
