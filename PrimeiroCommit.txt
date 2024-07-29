@@ -3,5 +3,3 @@ git status
 
 git add TreinandoGit.txt
 git commit -m "Meu primeiro commit"
-
-git log
