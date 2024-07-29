@@ -1,0 +1,11 @@
+# O Problema
+
+- Como lidar com diversas alterações no projeto?
+- Como tomar decisões que sejam reversíveis?
+- Como trabalhar com muitos distribuidores? Como distribuir?
+
+# O GIT
+
+Software para gerenciamento de versões de arquivos de texto.
+
+Criado por Linus Torvalds para melhorar a colaboração no kernel do Linux.
