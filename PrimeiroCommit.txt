@@ -1,0 +1,5 @@
+git init
+git status
+
+git add TreinandoGit.txt
+git commit -m "Meu primeiro commit"

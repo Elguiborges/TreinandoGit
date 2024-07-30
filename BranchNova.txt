@@ -1,0 +1,17 @@
+git init
+git status
+git add TreinandoGit.txt
+git commit -m "Meu primeiro commit"
+----------------
+
+git log
+git commit -m "Segundo commit"
+-----------------
+
+git branch
+git branch -b nova
+------------------
+
+git checkout master
+git merge nova ##JUNTANDO AS DUAS BRANCHS
+git branch -d ##DELETANDO A BRANCH "NOVA"
