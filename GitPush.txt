@@ -19,3 +19,12 @@ git branch -d ##DELETANDO A BRANCH "NOVA"
 
 git remote add origin https://github.com/Elguiborges/Git
 git push origin master
+git pull origin master
+
+DESENHO-----------------------------------------------------------
+Main (remoto)	<--Pull Request<--     Minha Branch (remoto)
+  |						|
+Git Pull		CICLO		     Git Push
+  |						|
+Main (local)    -->Git Checkout-->     MinhaBranch (local)
+-------------------------------------------------------------------
