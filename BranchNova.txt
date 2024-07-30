@@ -11,3 +11,6 @@ git commit -m "Segundo commit"
 
 git branch
 git branch -b nova
+------------------
+git checkout master
+git merge nova
