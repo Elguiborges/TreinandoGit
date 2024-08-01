@@ -1,4 +1,11 @@
 # Treinando git
 
 Repositório criado para treinar comandos Git.
-Git push e Git pull OK
+
+DESENHO-----------------------------------------------------------
+Main (remoto)	<--Pull Request<--     Minha Branch (remoto)
+  |						|
+Git Pull		CICLO		     Git Push
+  |						|
+Main (local)    -->Git Checkout-->     MinhaBranch (local)
+-------------------------------------------------------------------
