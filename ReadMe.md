@@ -1,11 +1,16 @@
-# Treinando git
+# TreinandoGit
 
-Repositório criado para treinar comandos Git.
+Repositório criado para expor meu primeiro contato com Git.
 
-DESENHO-----------------------------------------------------------
+# Desenho
+
 Main (remoto)	<--Pull Request<--     Minha Branch (remoto)
-  |						|
+
+|						|
+
 Git Pull		CICLO		     Git Push
-  |						|
+
+|						|
+
 Main (local)    -->Git Checkout-->     MinhaBranch (local)
--------------------------------------------------------------------
+
